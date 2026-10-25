@@ -8,7 +8,7 @@ const CONFIG = {
      The number you gave me (0805888991) is only 10 digits —
      please confirm the missing digit below.
      Format used here: drop the leading 0 and add 234  */
-  whatsapp: "234805888991",
+  whatsapp: "2348058588991",
 
   /* Paste your PUBLISHED Google Sheet CSV link here.
      Leave as "" to use the built-in demo products. */
