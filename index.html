@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aba Direct Plug — Aba Prices, Delivered Nationwide</title>
+  <meta name="description" content="Quality eyeglasses, jewellery and trendy clothes at Aba prices. We waybill to any state in Nigeria. Affordable. Quality. Fast delivery." />
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- External CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ================= NAV ================= -->
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="#" class="logo">
+        <span class="logo-mark">👓</span>
+        <span class="logo-text">
+          <b>ABA DIRECT</b>
+          <small>PLUG</small>
+        </span>
+      </a>
+      <nav class="nav-links">
+        <a href="#shop">Shop</a>
+        <a href="#how">How it works</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="cart-btn" id="cartBtn" aria-label="Open cart">
+        🛒 <span class="lbl">Cart</span>
+        <span class="cart-count" id="cartCount">0</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ================= HERO ================= -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <span class="pill">🇳🇬 We waybill to all 36 states + FCT</span>
+        <h1>Aba prices.<br><span class="grad">Delivered to your doorstep.</span></h1>
+        <p class="lead">
+          Quality eyeglasses, jewellery and trendy clothes — straight from Aba.
+          Affordable. Quality. Fast delivery. No middleman markup.
+        </p>
+        <div class="hero-cta">
+          <a href="#shop" class="btn btn-primary">Shop the plug →</a>
+          <a href="#" class="btn btn-ghost" id="heroWa">💬 Chat on WhatsApp</a>
+        </div>
+        <div class="stats">
+          <div class="stat"><b>36+</b><span>States covered</span></div>
+          <div class="stat"><b>24h</b><span>Dispatch time</span></div>
+          <div class="stat"><b>100%</b><span>Quality checked</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hv-card">
+          <img src="https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=700&q=70" alt="Eyeglasses" onerror="imgFallback(this)">
+          <span class="hv-tag">👓 Eyeglasses</span>
+        </div>
+        <div class="hv-card">
+          <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=600&q=70" alt="Jewellery" onerror="imgFallback(this)">
+          <span class="hv-tag">💎 Jewellery</span>
+        </div>
+        <div class="hv-card">
+          <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=600&q=70" alt="Clothing" onerror="imgFallback(this)">
+          <span class="hv-tag">👕 Clothing</span>
+        </div>
+        <div class="hv-float">
+          <span class="dot"></span>
+          <div>
+            <small>Same Aba price</small>
+            <b>No extra markup</b>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SHOP ================= -->
+  <section class="section" id="shop">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">The Catalogue</div>
+          <h2>Fresh drops, Aba prices</h2>
+          <p>Tap <b style="color:var(--gold)">Get Inquiry</b> and we'll chat you up on WhatsApp instantly.</p>
+        </div>
+      </div>
+
+      <div class="toolbar">
+        <div class="search">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round">
+            <circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/>
+          </svg>
+          <input type="text" id="searchInput" placeholder="Search glasses, chains, tees…" autocomplete="off">
+        </div>
+        <div class="chips" id="chips"></div>
+      </div>
+
+      <div class="grid" id="grid"></div>
+    </div>
+  </section>
+
+  <!-- ================= HOW IT WORKS ================= -->
+  <section class="section" id="how">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <div class="eyebrow">Simple Process</div>
+          <h2>How it works</h2>
+        </div>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">01</div>
+          <h3>Pick your item</h3>
+          <p>Browse the catalogue and find what you like. Every price you see is the real Aba price.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">02</div>
+          <h3>Tap "Get Inquiry"</h3>
+          <p>It opens WhatsApp with the product name and price already typed for you. Zero stress.</p>
+        </div>
+        <div class="step">
+          <div class="step-num">03</div>
+          <h3>Pay &amp; we waybill</h3>
+          <p>Confirm, pay, and we dispatch within 24 hours to any state in Nigeria. Tracking included.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CTA BAND ================= -->
+  <section class="wrap">
+    <div class="band">
+      <div>
+        <h2>Can't find what you want? Just ask.</h2>
+        <p>Send us a picture of any item on WhatsApp — we'll source it from Aba and quote you the plug price.</p>
+      </div>
+      <a href="#" class="btn btn-wa" id="bandWa">💬 Message us now</a>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer id="contact">
+    <div class="wrap">
+      <div class="foot-grid">
+        <div>
+          <a href="#" class="logo">
+            <span class="logo-mark">👓</span>
+            <span class="logo-text"><b>ABA DIRECT</b><small>PLUG</small></span>
+          </a>
+          <p class="foot-about">
+            We bring Aba prices to your doorstep. Quality eyeglasses, jewellery and trendy clothes —
+            waybilled to any state in Nigeria. Affordable. Quality. Fast delivery.
+          </p>
+        </div>
+        <div>
+          <h4>Shop</h4>
+          <ul>
+            <li><a href="#shop">All products</a></li>
+            <li><a href="#shop" data-jump="Eyeglasses">Eyeglasses</a></li>
+            <li><a href="#shop" data-jump="Jewellery">Jewellery</a></li>
+            <li><a href="#shop" data-jump="Clothing">Clothing</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="#" id="footWa">📞 0805 888 991</a></li>
+            <li><a href="#" id="footWa2">💬 WhatsApp us</a></li>
+            <li>🕘 Mon – Sat, 8am – 7pm</li>
+            <li>📍 Aba, Abia State, Nigeria</li>
+          </ul>
+        </div>
+      </div>
+      <div class="foot-bottom">
+        <span>© <span id="year"></span> Aba Direct Products. All rights reserved.</span>
+        <span>Made with 🖤 in Aba, Nigeria</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ================= FLOATING WHATSAPP ================= -->
+  <a href="#" class="fab" id="fabWa">
+    <span class="pulse"></span>
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.25-.46-2.39-1.47-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.61.14-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.06 2.88 1.21 3.08c.15.2 2.09 3.2 5.07 4.48.71.31 1.26.49 1.69.63.71.23 1.36.19 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35z"/>
+      <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.28-1.38a9.86 9.86 0 0 0 4.76 1.21h.01c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm0 18.13h-.01a8.2 8.2 0 0 1-4.18-1.14l-.3-.18-3.11.82.83-3.04-.2-.31a8.19 8.19 0 0 1-1.26-4.37c0-4.54 3.7-8.23 8.24-8.23 2.2 0 4.26.86 5.82 2.41a8.18 8.18 0 0 1 2.41 5.83c0 4.54-3.7 8.21-8.24 8.21z"/>
+    </svg>
+    <span class="txt">Chat with us</span>
+  </a>
+
+  <!-- ================= CART DRAWER ================= -->
+  <div class="overlay" id="overlay"></div>
+  <aside class="drawer" id="drawer" aria-label="Shopping cart">
+    <div class="drawer-head">
+      <h3>Your Cart</h3>
+      <button class="close-x" id="closeCart" aria-label="Close cart">✕</button>
+    </div>
+    <div class="drawer-body" id="cartBody"></div>
+    <div class="drawer-foot">
+      <div class="total-row">
+        <span>Total</span>
+        <b id="cartTotal">₦0</b>
+      </div>
+      <button class="btn btn-wa" style="width:100%" id="checkoutBtn">Checkout on WhatsApp 💬</button>
+    </div>
+  </aside>
+
+  <div class="toast" id="toast"></div>
+
+  <!-- External JS -->
+  <script src="script.js"></script>
+</body>
+</html>
